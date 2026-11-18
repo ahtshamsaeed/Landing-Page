@@ -1,0 +1,116 @@
+/* ========== Base ========== */
+* {
+    font-family: "Inter Tight", sans-serif;
+    box-sizing: border-box;
+}
+
+/* ========== Header buttons ========== */
+.whatsappbtn {
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    color: #27AE60;
+    font-size: 16px;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.whatsappbtn i {
+    color: #27AE60;
+    margin-right: 5px;
+}
+
+.whatsappbtn:hover {
+    border-color: #27AE60;
+    color: #27AE60;
+    background: #f0fff5;
+}
+
+.call {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: #fff;
+    padding: 10px 18px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+
+.call:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.btn-outer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+/* ========== Banner ========== */
+.bannercontent {
+    width: 100%;
+}
+
+.bannercontent h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+
+.bannercontent h1 span {
+    color: #2699FB;
+    background: url("../images/border.png") no-repeat bottom left;
+    background-size: 100% auto;
+    padding-bottom: 5px;
+}
+
+.bannercontent p {
+    font-size: 22px;
+}
+
+.bannercontent ul {
+    list-style: none;
+}
+
+.bannercontent ul li {
+    font-size: 22px;
+}
+
+.bannercontent ul li i {
+    color: #2699FB;
+}
+
+/* ========== Banner buttons ========== */
+.bannercontentBtn button {
+    width: 40%;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    color: #101828;
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+}
+
+.bannercontentBtn button i {
+    margin-right: 6px;
+}
+
+.bannercontentBtn button:first-child {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: #fff;
+    border-color: transparent;
+}
+.bannercontentBtn button:last-child:hover {
+    background: #D0D5DD;
+    opacity: 1;
+}
+
+.bannercontentBtn button:hover {
+    opacity: 0.9;
+}
+
+.bannerform{
+    padding: 40px;
+}
