@@ -210,6 +210,14 @@ header {
     margin: 0;
 }
 
+@media (max-width: 575px) {
+    .statistics-section .row {
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
 /* ================= HIGHLIGHTS SECTION ================= */
 
 .highlights-section {
